@@ -1,0 +1,11 @@
+{
+  "name": "search-string",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.8.2",
+    "tsnd": "^1.1.0",
+    "typescipt": "^1.0.0"
+  }
+}
