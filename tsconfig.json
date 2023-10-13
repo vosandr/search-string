@@ -1,0 +1,10 @@
+{
+  "files": ["src/app.ts"],
+  "compilerOptions": {
+    "esModuleInterop": true, 
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "outDir": "./dist"
+  },
+}

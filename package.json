@@ -1,11 +1,25 @@
 {
-  "name": "search-string",
+  "name": "search-indexes",
   "version": "1.0.0",
-  "main": "app.ts",
+  "module": "dist/app.ts",
+  "types": "dist/app.d.ts",
   "license": "MIT",
-  "dependencies": {
-    "@types/node": "^20.8.2",
-    "tsnd": "^1.1.0",
-    "typescipt": "^1.0.0"
+  "type": "module",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
   }
 }
